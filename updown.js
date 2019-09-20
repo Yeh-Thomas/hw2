@@ -11,11 +11,11 @@ var ballSpeed2 = 5;
 function draw() {
   background(220);
 
-  fill(255, 0, 0);
-  ellipse(100, bally, 30);
+  fill(255, 255, 0);
+  ellipse(100, bally, 50);
   
-  fill(0, 0, 255);
-  ellipse(200, bally2, 30);
+  fill(0, 255, 255);
+  ellipse(200, bally2, 50);
 
   bally = bally + ballSpeed;
   bally2 = bally2 + ballSpeed2;
